@@ -6,7 +6,7 @@
 
         Dim num As Integer
         num = 1
-        Do While num <= 100
+        Do While num <= 1000
             lstResult.Items.Add("The Perfect Square: " & num ^ 2)
             num = num + 1 ' if you forget this, it will be an infinite loop 
         Loop
